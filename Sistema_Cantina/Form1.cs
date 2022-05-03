@@ -49,7 +49,8 @@ namespace Sistema_Cantina
                     /*Condição, se foi encontrado o produto ele retorna as
                     informações de acordo com o índice
                     caso não encontre aparecerá a mensagem, Produto não
-                    encontrado*/
+                    encontrado*/
+
                 }
                 else
                 {
@@ -57,13 +58,17 @@ namespace Sistema_Cantina
                     /* Conteúdo adicionado no ListBox, concatena (+) as
                     informaçôes (código/nome/valor)*/
 
-                    soma = soma + valor[indice];                    label3.Text = ("Valor Total R$ " + soma);                    picImagem.ImageLocation = "c:/imagens/" + codigo[indice] + ".jpg";                    txtCodigo.Text = "";
+                    soma = soma + valor[indice];
+                    label3.Text = ("Valor Total R$ " + soma);
+                    picImagem.ImageLocation = "c:/imagens/" + codigo[indice] + ".jpg";
+                    txtCodigo.Text = "";
                     txtCodigo.Focus();
 
                     /*localização da imagem que deve ser colocada em uma pasta em
                     c: em uma pasta imagens
                     o textbox será limpo e o Focus posiciona o cursor
-                    para o TextBox para uma nova digitação*/
+                    para o TextBox para uma nova digitação*/
+
                 }
             }
         }

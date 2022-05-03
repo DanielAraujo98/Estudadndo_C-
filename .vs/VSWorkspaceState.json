@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Sistema_Cantina",
+    "\\Sistema_Cantina\\obj"
   ],
-  "SelectedNode": "\\C:\\Users\\Daniel\\Desktop\\C#\\git",
+  "SelectedNode": "\\Sistema_Cantina",
   "PreviewInSolutionExplorer": false
 }
